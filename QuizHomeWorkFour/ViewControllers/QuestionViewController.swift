@@ -48,6 +48,7 @@ class QuestionViewController: UIViewController {
         super.viewDidLoad()
         //метод для обновления элементов интерфейса в соответсвии с текущим вопросом
         updateUI()
+        
 
     }
     
@@ -58,6 +59,8 @@ class QuestionViewController: UIViewController {
         
         resultViewController.answersChoosen = answersChosen
         
+        //скрыл кнопку "назад"
+        resultViewController.navigationItem.hidesBackButton = true
     }
     
     @IBAction func singleAnswerButtonPressed(_ sender: UIButton) {

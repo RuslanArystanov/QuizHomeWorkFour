@@ -212,22 +212,22 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="aa8-CI-MfJ">
-                                <rect key="frame" x="8.6666666666666572" y="343.66666666666669" width="357.66666666666674" height="124.66666666666669"/>
+                                <rect key="frame" x="-5.6666666666666572" y="343.66666666666669" width="386.33333333333326" height="124.66666666666669"/>
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZUQ-Mv-hdm">
-                                        <rect key="frame" x="-2" y="0.0" width="361.66666666666669" height="31"/>
+                                        <rect key="frame" x="-2" y="0.0" width="390.33333333333331" height="31"/>
                                     </slider>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="251" translatesAutoresizingMaskIntoConstraints="NO" id="d1F-pC-5ET">
-                                        <rect key="frame" x="0.0" y="50" width="357.66666666666669" height="20.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="50" width="386.33333333333331" height="20.333333333333329"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTv-MV-rKb">
-                                                <rect key="frame" x="0.0" y="0.0" width="65.333333333333329" height="20.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="94" height="20.333333333333332"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BX0-v2-jWZ">
-                                                <rect key="frame" x="316.33333333333331" y="0.0" width="41.333333333333314" height="20.333333333333332"/>
+                                                <rect key="frame" x="345" y="0.0" width="41.333333333333314" height="20.333333333333332"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -235,7 +235,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ocp-Y5-2ug">
-                                        <rect key="frame" x="0.0" y="90.333333333333314" width="357.66666666666669" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="90.333333333333314" width="386.33333333333331" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Ответить"/>
                                         <connections>
@@ -263,7 +263,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Вопрос №" id="VZE-S9-OSq">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="Z0G-vo-3Bn">
+                        <barButtonItem key="rightBarButtonItem" title="Item" hidden="YES" id="Z0G-vo-3Bn">
                             <connections>
                                 <segue destination="es8-aO-YFN" kind="show" identifier="showResult" id="eZI-Ci-ZCp"/>
                             </connections>

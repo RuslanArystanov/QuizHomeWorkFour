@@ -16,11 +16,9 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print(answersChoosen)
         animalLabel.text = String(calculateResult().rawValue)
         descriptionLabel.text = calculateResult().definition
     }
-
 }
 
 extension ResultViewController {
